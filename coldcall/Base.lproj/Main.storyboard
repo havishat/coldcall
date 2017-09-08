@@ -39,6 +39,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lgs-MW-PUX">
+                                <rect key="frame" x="28" y="197" width="680" height="20.333333333333343"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -46,19 +52,24 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="TYA-u9-RXb" secondAttribute="bottom" constant="8" symbolic="YES" id="29E-HO-kuh"/>
                             <constraint firstAttribute="trailingMargin" secondItem="TYA-u9-RXb" secondAttribute="trailing" constant="8" id="5dW-B2-KRj"/>
                             <constraint firstItem="gKP-1I-WOV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="8yW-md-UQd"/>
+                            <constraint firstItem="Lgs-MW-PUX" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Hdc-F8-QKD"/>
+                            <constraint firstItem="Lgs-MW-PUX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="JTr-MC-J62"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Lgs-MW-PUX" secondAttribute="trailing" constant="8" id="KC9-Ck-7Zj"/>
                             <constraint firstItem="TYA-u9-RXb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="8" id="Nrq-I4-xiu"/>
                             <constraint firstAttribute="trailingMargin" secondItem="gKP-1I-WOV" secondAttribute="trailing" constant="20" id="UxO-Qb-HbS"/>
                             <constraint firstAttribute="trailingMargin" secondItem="TYA-u9-RXb" secondAttribute="trailing" constant="8" id="f5S-15-gQ1"/>
+                            <constraint firstItem="Lgs-MW-PUX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="8" id="vis-JA-tm7"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="coldcallLabel" destination="gKP-1I-WOV" id="z3z-PD-yOx"/>
                         <outlet property="coldcallbutton" destination="TYA-u9-RXb" id="I88-lp-dbP"/>
+                        <outlet property="numberLabel" destination="Lgs-MW-PUX" id="AwV-JL-Y2N"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="135" y="138.38028169014083"/>
+            <point key="canvasLocation" x="69.565217391304358" y="76.630434782608702"/>
         </scene>
     </scenes>
 </document>
